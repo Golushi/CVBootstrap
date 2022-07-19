@@ -1,0 +1,99 @@
+.main-content-website section:nth-child(2n) {
+    background-color: #2e3135;
+}
+#firstRowHomePage {
+    background-image: url("img/fondDev.jpg");
+    min-height: 100vh;
+    background-position: center;
+    text-align: center;
+}
+#text-presentation {
+    background-color: #0c0c0cb9;
+    text-shadow: 1px 1px 3px #ffffff;
+}
+.text-bienvenue {
+    font-size: 2em;
+}
+.big-text{
+    font-size: 3em;
+    font-weight: bold;
+}
+.Description {
+    margin: 20px;
+    font-size: 1.2em;
+}
+#mouseBtn i{
+    font-size: 3.5em;
+    color: white;
+    position: absolute;
+    transform: translate(-50%, -50%) rotate(180deg) translate3d(0, 0, 0);
+    bottom: 20px;
+    transition: 0.5s;
+  }
+#mouseBtn i:hover {
+    cursor: pointer;
+    font-size: 4.5em;
+    transform: translate(-50%, -50%) rotate(0deg);
+    bottom: 20px;
+}
+.btn-social-share {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+a.nav-link.active{
+    color: blue !important;
+}
+#navbarSite {
+    transition: 1s;
+    z-index: 1000;
+}
+.temoignage {
+    color: rgba(245, 245, 245, 0.685);
+}
+.auteur {
+    font-weight: bold;
+    font-variant-caps:all-petite-caps;
+}
+.testimonial-icon {
+    font-size: 50px; 
+}
+
+#realisation img.realisation-img {
+    max-width: 100%;
+}
+
+/*Debut footer*/
+#scroll-top-button {
+    width: 25px;
+    height: 25px;
+    color: rgb(255, 255, 255);
+    background: rgb(0, 0, 0);
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    border-radius: 5px;
+    border: 2px outset #FFFFFF;
+    -webkit-box-shadow: 5px 5px 5px 3px rgba(0,0,0,0.57); 
+    box-shadow: 5px 5px 5px 3px rgba(0,0,0,0.57);
+    visibility: hidden;
+    transition: 1s;
+    opacity: 0;
+}
+#scroll-top-button.show {
+    visibility: visible;
+    opacity: 1;
+}
+#scroll-top-button:hover {
+    background: rgb(0, 23, 155);
+}
+footer {
+    color: #FFF;
+    height: 60px;
+    text-align: center;
+    padding: 8px;
+    text-decoration: underline;
+    background-color: #232323;
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18
+}
+/*fin footer*/
