@@ -49,7 +49,7 @@ a.nav-link.active{
     z-index: 1000;
 }
 .temoignage {
-    color: rgba(245, 245, 245, 0.685);
+    color: rgba(245, 245, 245, 0.774);
 }
 .auteur {
     font-weight: bold;
@@ -61,6 +61,10 @@ a.nav-link.active{
 
 #realisation img.realisation-img {
     max-width: 100%;
+}
+.contact-container .contact-header i {
+    font-size: 50px;
+    
 }
 
 /*Debut footer*/
