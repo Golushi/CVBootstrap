@@ -64,7 +64,15 @@ a.nav-link.active{
 }
 .contact-container .contact-header i {
     font-size: 50px;
-    
+    display: block;
+    margin-bottom: 10px;
+}
+.contact-container .contact-header h3 {
+    font-weight: 300;
+    font-size: 20px;
+}
+a {
+    color: white;
 }
 
 /*Debut footer*/
@@ -89,15 +97,13 @@ a.nav-link.active{
     opacity: 1;
 }
 #scroll-top-button:hover {
-    background: rgb(0, 23, 155);
+    background: #00179b;
 }
-footer {
-    color: #FFF;
-    height: 60px;
-    text-align: center;
-    padding: 8px;
-    text-decoration: underline;
-    background-color: #232323;
-    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18
+.footer-page div {
+    margin: 20px;
+}
+.footer-page {
+    background-color: #2e3135;
+    padding: 30px;
 }
 /*fin footer*/
