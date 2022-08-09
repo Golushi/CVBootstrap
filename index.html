@@ -71,7 +71,7 @@
             <!--Accueil-->
             <section id="accueil">
               <div class="container-fluid">
-                <div class="row row-cols-1" id="firstRowHomePage">
+                <div class="row row-cols-1" id="my-background">
                     <div 
                     class="d-flex justify-content-center flex-column text-center" 
                     id="text-presentation">
@@ -88,7 +88,7 @@
                         class="btn btn-outline-info">Télécharger mon CV
                         </a>
                         </div>
-                        <div id="mouseBtn" class="">
+                        <div id="mouseBtn" class="d-flex justify-content-center pb-5 mb-5">
                           <a href="#about"><i class="bi bi-mouse"></i></a>
                         </div>
                     </div>
@@ -476,5 +476,22 @@
             crossorigin="anonymous">
         </script>
         <script src="script.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r119/three.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.birds.min.js"></script>
+        <script>
+          VANTA.BIRDS({
+            el: "#my-background",
+            mouseControls: true,
+            touchControls: true,
+            gyroControls: false,
+            minHeight: 200.00,
+            minWidth: 200.00,
+            scale: 1.00,
+            scaleMobile: 1.00,
+            backgroundColor: 0x0,
+            color1: 0x499d,
+            color2: 0x652c0
+          })
+          </script>
     </body>
 </html>
