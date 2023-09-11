@@ -11,8 +11,12 @@
     min-height: 100vh;
     background-position: center;
 }
+
+#welcome {
+    min-height: 100vh;
+}
+
 #text-presentation {
-    
     text-shadow: 1px 1px 3px #ffffff;
 }
 .text-bienvenue {
