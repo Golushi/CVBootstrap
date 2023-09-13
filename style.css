@@ -1,5 +1,5 @@
 .main-content-website section:nth-child(2n) {
-    background-color: #2e3135;
+  background-color: #2e3135;
 }
 /*#firstRowHomePage {
     background-image: url("img/fondDev.jpg");
@@ -8,110 +8,153 @@
     text-align: center;
 }*/
 #my-background {
-    min-height: 100vh;
-    background-position: center;
+  min-height: 100vh;
+  background-position: center;
 }
 
 #welcome {
-    min-height: 100vh;
+  min-height: 100vh;
 }
 
 #text-presentation {
-    text-shadow: 1px 1px 3px #ffffff;
+  text-shadow: 1px 1px 3px #ffffff;
 }
 .text-bienvenue {
-    font-size: 2em;
+  font-size: 2em;
 }
-.big-text{
-    font-size: 3em;
-    font-weight: bold;
+.big-text {
+  font-size: 3em;
+  font-weight: bold;
 }
 .Description {
-    margin: 20px;
-    font-size: 1.2em;
+  margin: 20px;
+  font-size: 1.2em;
 }
-#mouseBtn i{
-    font-size: 3.5em;
-    color: white;
-    position: absolute;
-    transform: translate(-50%, -50%) rotate(180deg);
-    bottom: 2px;
-    transition: 0.5s;
-  }
+#mouseBtn i {
+  font-size: 3.5em;
+  color: white;
+  position: absolute;
+  transform: translate(-50%, -50%) rotate(180deg);
+  bottom: 2px;
+  transition: 0.5s;
+}
 #mouseBtn i:hover {
-    cursor: pointer;
-    font-size: 4.5em;
-    transform: translate(-50%, -50%) rotate(0deg);
-    bottom: 2px;
+  cursor: pointer;
+  font-size: 4.5em;
+  transform: translate(-50%, -50%) rotate(0deg);
+  bottom: 2px;
 }
 .btn-social-share {
-    border-radius: 50%;
-    width: 40px;
-    height: 40px;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
 }
-a.nav-link.active{
-    color: blue !important;
+a.nav-link.active {
+  color: blue !important;
 }
 #navbarSite {
-    transition: 1s;
-    z-index: 1000;
+  transition: 1s;
+  z-index: 1000;
 }
 .temoignage {
-    color: rgba(245, 245, 245, 0.774);
+  color: rgba(245, 245, 245, 0.774);
 }
 .auteur {
-    font-weight: bold;
-    font-variant-caps:all-petite-caps;
+  font-weight: bold;
+  font-variant-caps: all-petite-caps;
 }
 .testimonial-icon {
-    font-size: 50px; 
+  font-size: 50px;
 }
 
 #realisation img.realisation-img {
-    max-width: 100%;
+  max-width: 100%;
 }
 .contact-container .contact-header i {
-    font-size: 50px;
-    display: block;
-    margin-bottom: 10px;
+  font-size: 50px;
+  display: block;
+  margin-bottom: 10px;
 }
 .contact-container .contact-header h3 {
-    font-weight: 300;
-    font-size: 20px;
+  font-weight: 300;
+  font-size: 20px;
 }
 a {
-    color: white;
+  color: white;
+}
+
+#realisation {
+  position: relative; /* Ajoutez ceci pour que la section ait une position relative */
+}
+
+.realisation-container {
+  position: relative;
+}
+
+.realisation-container2 {
+    position: relative;
+  }
+
+.image-container {
+  position: relative;
+  z-index: 2;
+}
+
+.realisation-img {
+  max-width: 100%;
+  height: auto; /* Assure que l'image conserve ses proportions */
+}
+
+.iframe-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: auto; /* Assure que l'iframe prend toute la largeur de son conteneur */
+  height: auto;
+  z-index: 1;
+  
+}
+.iframe {
+  width: 100%;
+  height: 100%;
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-top: 4%;
+  padding-bottom: 35%;
+  border: none;
 }
 
 /*Debut footer*/
 #scroll-top-button {
-    width: 25px;
-    height: 25px;
-    color: rgb(255, 255, 255);
-    background: rgb(0, 0, 0);
-    position: fixed;
-    right: 10px;
-    bottom: 10px;
-    border-radius: 5px;
-    border: 2px outset #FFFFFF;
-    -webkit-box-shadow: 5px 5px 5px 3px rgba(0,0,0,0.57); 
-    box-shadow: 5px 5px 5px 3px rgba(0,0,0,0.57);
-    visibility: hidden;
-    transition: 1s;
-    opacity: 0;
+  width: 25px;
+  height: 25px;
+  color: rgb(255, 255, 255);
+  background: rgb(0, 0, 0);
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  border-radius: 5px;
+  border: 2px outset #ffffff;
+  -webkit-box-shadow: 5px 5px 5px 3px rgba(0, 0, 0, 0.57);
+  box-shadow: 5px 5px 5px 3px rgba(0, 0, 0, 0.57);
+  visibility: hidden;
+  transition: 1s;
+  opacity: 0;
 }
 #scroll-top-button.show {
-    visibility: visible;
-    opacity: 1;
+  visibility: visible;
+  opacity: 1;
 }
 #scroll-top-button:hover {
-    background: #00179b;
+  background: #00179b;
 }
 .footer-page div {
-    margin: 20px;
+  margin: 20px;
 }
 .footer-page {
-    background-color: #2e3135;
-    padding: 30px;
+  background-color: #2e3135;
+  padding: 30px;
 }
 /*fin footer*/
